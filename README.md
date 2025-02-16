@@ -6,6 +6,7 @@ Trabalho de Matemática aplicada a dados
 </h1>
 <p>
   Fazer uma analise da base de orders para achar a probabilidade de recomendação de acordo com o carinho de um cliente
+  (Usar Somente as colunas Order ID e Sub-Category para o dado da probabilidade)
 </p>
 <h1>
   Demandas
@@ -32,8 +33,9 @@ Faça um programa que receba um dataset de N produtos e apresente a melhor combi
 <h1>
   Data de entrega
 </h1>
-
-## 20/02/2025
+<p>
+  20/02/2025
+</p>
 
 <h1>
   Participantes
