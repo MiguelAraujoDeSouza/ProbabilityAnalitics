@@ -23,19 +23,12 @@ Faça um programa que receba um dataset de N produtos e apresente a melhor combi
 3. Cliente com até N-1 produtos no carrinho;
 4. Apresente a melhor escolha para cada um dos cenários;
 </p>
-<h1>
-  Como foi feito
-</h1>
-<p>
-  Primeiramente, lemos o .xlsx para manipularmos ele, removemos os dados duplicados que poderiam atrapalhar no calculo da probabilidade e transformamos em binario, ou seja, transformando as categorias em coluna e os id's em linhas, assim facilitando no calculo.
-  Caso o carrinho esteja vazio, aparece o produto mais vendido, mas caso já exista um produto no carrinho, a tabela é filtrada, assim só mostrando os registros de id's que obrigatóriamente compraram aquela categoria. Após isso, pegamos as intersecções e vemos qual a maior para a proxima recomendação;
-</p>
+
 <h1>
   Data de entrega
 </h1>
-<p>
-  20/02/2025
-</p>
+
+### 20/02/2025
 
 <h1>
   Participantes
@@ -44,4 +37,10 @@ Faça um programa que receba um dataset de N produtos e apresente a melhor combi
   Miguel Araujo de Sousa
   
   João Vitor Vargas
+
+  Leticia Nascimento
+
+  Gabriel Ferrari
+
+  Caio de Oliveira
 </p>
