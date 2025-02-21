@@ -6,6 +6,7 @@ Trabalho de Matemática aplicada a dados
 </h1>
 <p>
   Fazer uma analise da base de orders para achar a probabilidade de recomendação de acordo com o carinho de um cliente
+  (Usar Somente as colunas Order ID e Sub-Category para o dado da probabilidade)
 </p>
 <h1>
   Demandas
@@ -22,17 +23,12 @@ Faça um programa que receba um dataset de N produtos e apresente a melhor combi
 3. Cliente com até N-1 produtos no carrinho;
 4. Apresente a melhor escolha para cada um dos cenários;
 </p>
-<h1>
-  Como foi feito
-</h1>
-<p>
-  ???????????
-</p>
+
 <h1>
   Data de entrega
 </h1>
 
-## 20/02/2025
+### 20/02/2025
 
 <h1>
   Participantes
@@ -41,10 +37,10 @@ Faça um programa que receba um dataset de N produtos e apresente a melhor combi
   Miguel Araujo de Sousa
   
   João Vitor Vargas
-  
-  Caio de Oliveira
-  
+
   Leticia Nascimento
-  
+
   Gabriel Ferrari
+
+  Caio de Oliveira
 </p>
