@@ -29,7 +29,7 @@ def recommendation(products: list) -> dict:
 
           for c in allProductsWithoutCartProducts:
                sumProducts += allProductsWithoutCartProducts[c].sum()
-
+ 
           for i in allProductsWithoutCartProducts: #Calculate the probability
                sum = allProductsWithoutCartProducts[i].sum()
                values.update({i:(sum/sumProducts)*100})
