@@ -1,46 +1,65 @@
-# ProbabilityAnalitics 🔎
-Trabalho de Matemática aplicada a dados
+# 📊 Probability Analytics
 
-<h1>
-  Propósito
-</h1>
-<p>
-  Fazer uma analise da base de orders para achar a probabilidade de recomendação de acordo com o carinho de um cliente
-  (Usar Somente as colunas Order ID e Sub-Category para o dado da probabilidade)
-</p>
-<h1>
-  Demandas
-</h1>
-<p>
-Faça um programa que receba um dataset de N produtos e apresente a melhor combinação de recomendações para clientes. Para isso:
-  
-1. Defina o formato de inserção de dados (Padrões nas tabelas, nomes e etc.);
-2. Apresente um relatório com as probabilidades de recomendação tendo em vista cada um dos produtos
-(A, B, C ...) e cenários possíveis;
-3. Considere os cenários possíveis:
-1. Cliente sem produto no carrinho;
-2. Cliente com 1 produto no carrinho;
-3. Cliente com até N-1 produtos no carrinho;
-4. Apresente a melhor escolha para cada um dos cenários;
-</p>
+**Trabalho de Matemática Aplicada a Dados**
 
-<h1>
-  Data de entrega
-</h1>
+---
 
-### 20/02/2025
+## 🔎 Introdução
+Este projeto tem como objetivo analisar um conjunto de dados de pedidos (orders) para calcular a probabilidade de recomendação de produtos com base no carrinho de um cliente. A análise se baseia exclusivamente nas colunas **Order ID** e **Sub-Category**, utilizando técnicas estatísticas para identificar padrões de compra e sugerir produtos de forma inteligente.
 
-<h1>
-  Participantes
-</h1>
-<p>
-  Miguel Araujo de Sousa
-  
-  João Vitor Vargas
+## 🎯 Objetivos
+O projeto visa desenvolver um programa que receba um dataset contendo N produtos e gere recomendações otimizadas para clientes, considerando diferentes cenários. Para isso, as seguintes demandas foram definidas:
 
-  Leticia Nascimento
+1. **Definir o formato de inserção de dados**: Padronização das tabelas, nomenclaturas e estrutura do dataset.
+2. **Gerar um relatório de probabilidades**: Apresentar a probabilidade de recomendação para cada produto (A, B, C, etc.) considerando diferentes cenários.
+3. **Considerar múltiplos cenários**:
+   - Cliente sem produtos no carrinho.
+   - Cliente com 1 produto no carrinho.
+   - Cliente com até N-1 produtos no carrinho.
+4. **Determinar a melhor escolha de recomendação** para cada um dos cenários analisados.
 
-  Gabriel Ferrari
+## 🛠 Tecnologias Utilizadas
+- **Linguagem**: Python 🐍
+- **Bibliotecas**: Pandas, NumPy, Matplotlib, Seaborn (para análise e visualização de dados)
+- **Jupyter Notebook**: Para desenvolvimento e execução das análises
 
-  Caio de Oliveira
-</p>
+## 📅 Data de Entrega
+🗓 **20/02/2025**
+
+## 👥 Equipe
+- **Miguel Araujo de Sousa**
+- **João Vitor Vargas**
+- **Leticia Nascimento**
+- **Gabriel Ferrari**
+- **Caio de Oliveira**
+
+## 📂 Estrutura do Projeto
+```
+📦 ProbabilityAnalytics
+├── 📜 README.md  # Documentação do projeto
+├── 📊 analise.ipynb  # Código principal de análise
+├── 🧻 loja.xlsx # Base
+├── 🐍 main.py #aplicação dos metodos estruturados na analise.ipynb
+```
+
+## 🚀 Como Executar o Projeto
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-repositorio.git
+   ```
+2. **Instale as dependências**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Execute o Jupyter Notebook**:
+   ```bash
+   jupyter notebook analise.ipynb
+   ```
+4. **Analise os resultados e relatórios gerados!** 📈
+
+## 📢 Contribuição
+Caso queira contribuir com o projeto, sinta-se à vontade para abrir um pull request ou relatar problemas na aba de **Issues** do repositório.
+
+---
+✍ *Projeto acadêmico desenvolvido para fins educacionais.*
+
