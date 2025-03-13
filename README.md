@@ -46,16 +46,11 @@ O projeto visa desenvolver um programa que receba um dataset contendo N produtos
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/seu-repositorio.git
-   ```
-2. **Instale as dependências**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Execute o Jupyter Notebook**:
+2. **Execute o Jupyter Notebook**:
    ```bash
    jupyter notebook analise.ipynb
    ```
-4. **Analise os resultados e relatórios gerados!** 📈
+3. **Analise os resultados e relatórios gerados!** 📈
 
 ## 📢 Contribuição
 Caso queira contribuir com o projeto, sinta-se à vontade para abrir um pull request ou relatar problemas na aba de **Issues** do repositório.
